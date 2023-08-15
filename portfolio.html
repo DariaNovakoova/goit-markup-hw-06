@@ -13,6 +13,7 @@
       referrerpolicy="no-referrer"
     />
     <link rel="stylesheet" href="./css/styles.css" />
+    <link rel="stylesheet" href="./css/media.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -27,10 +28,13 @@
       <div class="header-div container">
         <nav class="nav">
           <!-- LOGO -->
+
           <a href="./index.html" class="logo-header link"
-            >Web<span class="span-logo-first">Studio</span></a
-          >
+            >Web<span class="span-logo-first">Studio</span>
+          </a>
+
           <!-- NAVIGATION-LIST -->
+
           <ul class="nav-list list">
             <li class="nav-point">
               <a href="./index.html" class="nav-id-link link">Studio</a>
@@ -39,11 +43,13 @@
               <a href="./portfolio.html" class="current nav-id-link link">Portfolio</a>
             </li>
             <li class="nav-point">
-              <a href="./index.html" class="nav-id-link link">Contacts</a>
+              <a href="" class="nav-id-link link">Contacts</a>
             </li>
           </ul>
         </nav>
+
         <!-- ADDRESS -->
+
         <address class="address">
           <ul class="address-list list">
             <li class="address-point">
@@ -54,6 +60,83 @@
             </li>
           </ul>
         </address>
+        <button type="button" class="button-menu-open" data-menu-open>
+          <svg class="menu-open-icon" width="32" height="22">
+            <use href="./images/icons.svg#icon-menu-hamburger"></use>
+          </svg>
+        </button>
+      </div>
+
+      <!-- MOB-MENU -->
+
+      <div class="mob-menu is-hidden" data-menu>
+        <div class="nav-block">
+          <button type="button" class="button-menu-close" data-menu-close>
+            <svg class="menu-close-icon" width="8" height="8">
+              <use href="./images/icons.svg#icon-close"></use>
+            </svg>
+          </button>
+
+          <ul class="nav-list-menu list">
+            <li class="nav-point-menu">
+              <a href="./index.html" class="nav-id-menu link">Studio</a>
+            </li>
+            <li class="nav-point-menu">
+              <a href="./portfolio.html" class="nav-id-menu link">Portfolio</a>
+            </li>
+            <li class="nav-point-menu">
+              <a href="./index.html" class="nav-id-menu link">Contacts</a>
+            </li>
+          </ul>
+        </div>
+
+        <div class="info-block">
+          <address class="address-menu">
+            <ul class="address-list-menu list">
+              <li class="address-point-menu">
+                <a href="tel:+110001111111" class="address-link-menu-tel link"
+                  >+11 (000) 111-11-11</a
+                >
+              </li>
+              <li class="address-point-menu">
+                <a href="mailto:info@devstudio.com" class="address-link-menu-em link"
+                  >info@devstudio.com</a
+                >
+              </li>
+            </ul>
+          </address>
+
+          <ul class="sm-list-menu list">
+            <li class="sm-point-menu">
+              <a href="" class="sm-link-menu link">
+                <svg class="sm-icon-menu" width="24" height="24">
+                  <use href="./images/icons.svg#icon-instagram"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="sm-point-menu">
+              <a href="" class="sm-link-menu link">
+                <svg class="sm-icon-menu" width="24" height="24">
+                  <use href="./images/icons.svg#icon-twitter"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="sm-point-menu">
+              <a href="" class="sm-link-menu link">
+                <svg class="sm-icon-menu" width="24" height="24">
+                  <use href="./images/icons.svg#icon-facebook"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="sm-point-menu">
+              <a href="" class="sm-link-menu link">
+                <svg class="sm-icon-menu" width="24" height="24">
+                  <use href="./images/icons.svg#icon-linkedin"></use>
+                </svg>
+              </a>
+            </li>
+          </ul>
+        </div>
       </div>
     </header>
 
@@ -245,6 +328,7 @@
 
     <footer class="footer">
       <!-- LOGO -->
+
       <div class="footer-container container">
         <div class="logo-container">
           <a href="./index.html" class="logo-footer link"
@@ -309,5 +393,7 @@
         </div>
       </div>
     </footer>
+
+    <script src="./js/menu.js"></script>
   </body>
 </html>
