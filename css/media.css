@@ -153,6 +153,34 @@
     width: calc((100% - 48px) / 3);
   }
 
+  /* MAIN-PORTFOLIO */
+  .portfolio-section {
+    padding-top: 64px;
+    padding-bottom: 96px;
+  }
+
+  .button-list {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+    gap: 24px;
+    margin-bottom: 64px;
+    max-width: none;
+  }
+
+  .button-name {
+    padding: 12px 24px;
+  }
+
+  .service-list {
+    column-gap: 24px;
+    row-gap: 72px;
+  }
+
+  .service-point {
+    width: calc((100% - 24px) / 2);
+  }
+
   /* FOOTER */
   .footer-container.container {
     padding-left: 107px;
@@ -281,6 +309,25 @@
 
   .customers-point {
     width: calc((100% - 5 * 24px) / 6);
+  }
+
+  /* MAIN-PORTFOLIO */
+  .portfolio-section {
+    padding-top: 100px;
+    padding-bottom: 120px;
+  }
+
+  .button-list {
+    margin-bottom: 72px;
+  }
+
+  .service-list {
+    column-gap: 24px;
+    row-gap: 48px;
+  }
+
+  .service-point {
+    width: calc((100% - 48px) / 3);
   }
 
   /* FOOTER */
