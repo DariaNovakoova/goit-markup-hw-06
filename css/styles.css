@@ -286,6 +286,10 @@ ol {
   color: var(--ocean);
 }
 
+.colorstate {
+  color: var(--ocean);
+}
+
 .info-block {
 }
 
